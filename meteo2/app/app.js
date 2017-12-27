@@ -32,11 +32,14 @@ function getJqAjax(){
 	var city = $('#city').val();
 	if(city != ''){
 		$.ajax({
-			url: 'http://api.openweathermap.org/data/2.5/weather?q='+city+"&units=metric"+"&APPID=c10bb2bd22f90d636baa008b1529ee25",
+			url: 'http://api.openweathermap.org/data/2.5/weather?q='+city+"&units=metric"+"&lang=fr"+"&APPID=fa23699725f4880f535416fdefe45b42",
 			datatype:'json',
 			success: function(data){
+				$("#error").html('');
 				console.log("success");
 				console.log(data)
+			}, error : function(){
+				$("#error").html('City not listed');
 			}
 		});
 	}else{
