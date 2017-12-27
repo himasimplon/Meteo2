@@ -16,3 +16,13 @@ div{
 	font-size: 45px;
 	padding: 15px;
 }
+#city{
+	width: 25%;
+	height: 2em;
+	border: 2px solid #fff;
+
+}
+#submitWeather{
+	height: 2em;
+	width: 10%;
+}
