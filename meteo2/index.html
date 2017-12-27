@@ -3,11 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light" rel="stylesheet">
 	<title>Projet Meteo</title>
 </head>
 <body>
+	<header>
+		<h1>SIMPLON - Meteo App</h1>
+		<span id="error"></span>
+	</header>	
+	<input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+	<button id="submitWeather" class="btn btn-primary">Search city</button>
 
-	<script type="text/javascript" src="app/app.js"></script>
+
+	<div class='city'>Ville</div>
+	<div class='sky'>Ciel</div>
+	<div class='time'>Temps</div>
+	<div class='température'>Température</div>
+
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="app/app.js"></script>
 </body>
 </html>

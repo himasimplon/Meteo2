@@ -1,0 +1,18 @@
+body{
+	background-image: url('http://www.fondsecran.eu/a/get_photo/627516/2560/1440');
+/*	font-family: 'Shadows Into Light', cursive;*/
+	font-family: 'Amatic SC', cursive;
+	color: #FFF;
+	text-align: center;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+header{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+div{
+	font-weight: bold;
+	font-size: 45px;
+	padding: 15px;
+}
