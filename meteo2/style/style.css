@@ -7,13 +7,11 @@ body{
 	color: #fff;
 }
 header{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
-div{
-	font-weight: bold;
-	font-size: 45px;
-	padding: 15px;
+h1{
+	margin: 0px;
 }
 #city{
 	width: 25%;
@@ -23,24 +21,34 @@ div{
 	font-size: 3em;
 	border: 1px solid #48856f;
 	background-color: #fff;
-	color: #48856f;
 }
 .submitWeather{
-	width: 10%;
+	width: 15%;
 	font-size: 3em;
-	border: 1px solid #48856f;
-	background-color: #fff;
+	border: 1px solid #fff;
+	background-color: #48856f;
 	font-family: 'Amatic SC', cursive;
 	font-size: 3em;
-	color: #48856f;
+	color: #fff;
 }
 #search:hover{
-	background-color: #48856f;
-	color: #fff;
+	background-color: #fff;
+	border: 1px solid #48856f;
+	color: #48856f;
 }
 .info{
 	text-align: left;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 3px;
 }
-#error{
-	border: 10px solid white;
+
+#map{
+	width: 50%;
+	height: 400px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
 }
