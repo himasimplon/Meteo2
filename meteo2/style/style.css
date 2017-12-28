@@ -1,28 +1,54 @@
 body{
 	background-image: url('http://www.fondsecran.eu/a/get_photo/627516/2560/1440');
-/*	font-family: 'Shadows Into Light', cursive;*/
 	font-family: 'Amatic SC', cursive;
-	color: #FFF;
 	text-align: center;
 	background-repeat: no-repeat;
 	font-size: 18px;
+	color: #fff;
 }
 header{
-	margin-top: 5%;
-	margin-bottom: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
-div{
-	font-weight: bold;
-	font-size: 45px;
-	padding: 15px;
+h1{
+	margin: 0px;
 }
 #city{
 	width: 25%;
-	height: 2em;
-	border: 2px solid #fff;
-
+	border: 0px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 3em;
+	border: 1px solid #48856f;
+	background-color: #fff;
 }
-#submitWeather{
-	height: 2em;
-	width: 10%;
+.submitWeather{
+	width: 15%;
+	font-size: 3em;
+	border: 1px solid #fff;
+	background-color: #48856f;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	color: #fff;
+}
+#search:hover{
+	background-color: #fff;
+	border: 1px solid #48856f;
+	color: #48856f;
+}
+.info{
+	text-align: left;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 5px;
+}
+
+#map{
+	width: 600px;
+	height: 400px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
 }
