@@ -9,10 +9,23 @@ body{
 }
 header{
 	margin-top: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 div{
 	font-weight: bold;
 	font-size: 45px;
 	padding: 15px;
+}
+#city{
+	width: 25%;
+	height: 2em;
+	border: 2px solid #fff;
+
+}
+#submitWeather{
+	height: 2em;
+	width: 10%;
+}
+span{
+	font-size: 45px;
 }
