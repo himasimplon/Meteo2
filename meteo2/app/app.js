@@ -18,7 +18,7 @@ function getJqAjax(){
 				$('#error').hide();
 			},
 			error: function(){
-				$('#error').show();
+				return '<div>Cette ville n\'existe pas!</div>'
 			},
 		});
 	}else{
@@ -26,11 +26,21 @@ function getJqAjax(){
 	}
 }	
 	function show(data){
-		return '<div class="info">Ciel : '+data.weather[0].description+'</div>' +
-			   '<div class="info">Humiditée : '+data.main.humidity+'</div>' +
+		return '<div class="info">Ciel: <img src="http://openweathermap.org/img/w/' + data.weather[0].icon + '.png"> ' + data.weather[0].description + "</div>" +
 			   '<div class="info">Température min. : '+data.main.temp_min+'</div>' +
 			   '<div class="info">Température max. : '+data.main.temp_max+'</div>'
 	};
 
+	// function placeholder(){
+	// 	$(document).ready(function(){
+	// 	console.log("hello")
+ //   			$(this).attr("placeholder",'')
+	// 	});
+
+	// };
+
+	// $('#city').on('click', function(){
+	// 	placeholder();
+	// });
 
 })();

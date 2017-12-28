@@ -21,25 +21,26 @@ div{
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 3em;
-	border: 1px solid #000;
-	background-color: #48856f;
+	border: 1px solid #48856f;
+	background-color: #fff;
+	color: #48856f;
 }
 .submitWeather{
 	width: 10%;
 	font-size: 3em;
-	border: 1px solid #000;
-	background-color: #48856f;
+	border: 1px solid #48856f;
+	background-color: #fff;
 	font-family: 'Amatic SC', cursive;
 	font-size: 3em;
-	color: #fff;
+	color: #48856f;
 }
 #search:hover{
-	background-color: #000;
-	border: 1px solid #000;
-}
-input:placeholder-shown {
-  color: #fff;
+	background-color: #48856f;
+	color: #fff;
 }
 .info{
 	text-align: left;
+}
+#error{
+	border: 10px solid white;
 }
