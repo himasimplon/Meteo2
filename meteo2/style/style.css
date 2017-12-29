@@ -1,5 +1,5 @@
 body{
-	background-image: url('http://www.fondsecran.eu/a/get_photo/627516/2560/1440');
+	background-image: url('https://iso.500px.com/wp-content/uploads/2016/10/stock-photo-176456891-1500x956.jpg');
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	background-repeat: no-repeat;
@@ -19,22 +19,23 @@ h1{
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 3em;
-	border: 1px solid #48856f;
+	border: 1px solid #e8b76d;
 	background-color: #fff;
+	color: #e8b76d;
 }
 .submitWeather{
 	width: 15%;
 	font-size: 3em;
 	border: 1px solid #fff;
-	background-color: #48856f;
+	background-color: #e8b76d;
 	font-family: 'Amatic SC', cursive;
 	font-size: 3em;
 	color: #fff;
 }
 #search:hover{
 	background-color: #fff;
-	border: 1px solid #48856f;
-	color: #48856f;
+	border: 1px solid #e8b76d;
+	color: #e8b76d;
 }
 .info{
 	text-align: left;
@@ -51,4 +52,9 @@ h1{
 	display: flex;
 	justify-content: space-between;
 	padding: 1em;
+}
+.test{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 9em;
 }

@@ -3,14 +3,22 @@
 	$('.submitWeather').on('click',function(){
 		getJqAjax();
 	})
-	function getJqAjax(){
-		var city = $('#city').val();
+
+
+
+
 		var map = L.map('map').setView([46.318392, 2.975921], 8);
 		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {foo: 'bar'}).addTo(map);
-
+	
 		function setmap(x,y){
 			map.setView([y, x],14)
 		}
+
+
+	function getJqAjax(){
+		var city = $('#city').val();
+		$('.test').hide();
+
 
 		if(city != ''){
 			$.ajax({
