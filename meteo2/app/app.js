@@ -5,7 +5,7 @@
 	})
 
 
-
+		$('#map').hide();
 
 		var map = L.map('map').setView([46.318392, 2.975921], 8);
 		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {foo: 'bar'}).addTo(map);
@@ -18,6 +18,8 @@
 	function getJqAjax(){
 		var city = $('#city').val();
 		$('.test').hide();
+		$('#map').show();
+
 
 
 		if(city != ''){
